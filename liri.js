@@ -15,8 +15,7 @@ var logInput = liriReturn + " " + liriRequest +"\n";
 
 switch (liriReturn) {
     case "my-tweets":
-        myTweets();
-        
+        myTweets();       
         break;
 
     case "spotify-this-song":
@@ -168,7 +167,7 @@ function storeThis(logInput) {
           console.log("ERROR: " + err);
         }
       
-        // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+        // If no error is experienced, log the phrase "Content Added" to our node console.
         else 
           console.log("Content Added!");
         
